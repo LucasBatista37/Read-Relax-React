@@ -1,0 +1,78 @@
+/* Estilo geral para o modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    visibility: hidden; /* Esconde o modal inicialmente */
+    opacity: 0; /* Esconde o modal inicialmente */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Transições suaves para visibilidade e opacidade */
+  }
+  
+  /* Estilo para o conteúdo do modal */
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  /* Estilo para o botão de fechar */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  /* Estilo para o título do modal */
+  .modal-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para os textos do modal */
+  .modal-authors,
+  .modal-publisher,
+  .modal-description,
+  .modal-price {
+    margin: 10px 0;
+  }
+  
+  /* Estilo para a imagem do modal */
+  .modal-image {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para o botão no modal */
+  .modal-button {
+    background-color: #4a148c; /* Cor roxa */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o link do modal */
+  .modal-link {
+    text-decoration: none;
+  }
+  
+  /* Classe adicionada para exibir o modal */
+  .modal-show {
+    visibility: visible;
+    opacity: 1;
+  }
+  

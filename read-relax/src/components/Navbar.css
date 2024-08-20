@@ -1,0 +1,78 @@
+.header {
+    background-color: #4a148c; /* cor roxa */
+    color: white;
+    padding: 10px 20px;
+    position: fixed; /* Fica fixo no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Fica acima de outros elementos */
+  }
+  
+  .header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo i {
+    margin-right: 8px;
+  }
+  
+  .pesquisa-formulario {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pesquisa-formulario input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .icones {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icones .fas {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .header-2 {
+    background-color: #6a1b9a; /* cor roxa mais escura */
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    margin-top: 80px; /* Ajusta o espaço do topo para que o conteúdo não fique escondido atrás da Navbar fixa */
+  }
+  
